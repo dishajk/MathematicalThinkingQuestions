@@ -1,5 +1,5 @@
-\documentclass[12pt]{exam}
-% \documentclass[12pt, answers]{exam}
+% \documentclass[12pt]{exam}
+\documentclass[12pt, answers]{exam}
 \usepackage{hyperref}
 \usepackage{amssymb}
 \usepackage{amsmath}
@@ -9,6 +9,8 @@
 \usepackage{color}
 \usepackage{framed}
 \renewcommand{\thechoice}{\alph{choice}}
+\renewcommand{\solutiontitle}{\noindent\textbf{Answer:}\enspace}
+\SolutionEmphasis{\color{teal}}
 \title{\begin{framed}
     \textbf{Mathematical Thinking}\\Questions\\Week 3
 \end{framed}}
@@ -16,8 +18,12 @@
 \begin{document}
 \maketitle
 \pointsinrightmargin
+\unframedsolutions
 \begin{questions}
 \question[1] Find the remainder when $2^{20} + 3^{30} + 4^{40} + 5^{50}$ is divided by 7.
+\begin{solution}
+    6
+\end{solution}
 \question[1] What is your name?
 \question[1] Is your name Elephant?
 \begin{parts}
